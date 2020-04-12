@@ -48,9 +48,9 @@
 							"});",
 							"",
 							"",
-							"pm.test(\"Json response UserId eq 10\", function () {",
+							"pm.test(\"User Id is 1\", function () {",
 							"    var jsonData = pm.response.json();",
-							"    pm.expect(jsonData.id).to.eql(10);",
+							"    pm.expect(jsonData.userId).to.eql(1);",
 							"});"
 						],
 						"type": "text/javascript"
